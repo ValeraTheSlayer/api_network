@@ -33,4 +33,4 @@ class CommentViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         post = get_post(self)
-        return post.comments.select_related('author').all()
+        return post.comments.select_related('author')
