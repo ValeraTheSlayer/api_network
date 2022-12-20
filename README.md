@@ -12,4 +12,4 @@ Django 3.2
 python manage.py runserver
 ```
 ### Авторы
-Ежова Марина
+Ежов Валерий
